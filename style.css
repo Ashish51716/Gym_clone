@@ -1,0 +1,523 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* navbar */
+
+#navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9;
+
+}
+
+#navbar ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+#navbar ul li{
+    list-style: none;;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.btn-1{
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 7px;
+    border: none;
+}
+
+/* Hero Section */
+
+#hero{
+    height: 100vh;
+    background: url(./Image/Bodybuilding-Professional.webp);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 50px;
+    color: white;
+    flex-direction: column;
+
+}
+
+#hero h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 30px;
+
+}
+#hero p{
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#social-media{
+    padding: 20px 0px;
+    display: flex;
+    gap: 4px;
+}
+
+/* Stats sections */
+
+#stats{
+    display: flex;
+    background-color: black;
+    color: red;
+    font-size: 25px;
+    padding: 30px 50px;
+    justify-content: space-evenly;
+}
+#stats div p:nth-child(1){
+    font-size: 28px; 
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* why choose us */
+
+#why-choose-us{
+    padding: 50px 50px;
+    height: 90vh;
+    overflow: hidden;
+    
+}
+
+#design-holder{
+    display: flex;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#why-desc{
+    text-align: center;
+    width: 35%;
+    font-size: 18px;
+    margin: 0px auto;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+#text-card-holder{
+ 
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#second-third-card{
+    display: flex;
+    gap: 50px;
+}
+
+.why-card{
+    width: 280px;
+    display: flex;
+    gap: 10px;
+}
+
+#icon span{
+    padding: 8px 7px; 
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+.why-card div h5 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.why-card div p{
+    color: gray;
+}
+
+#img-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+#first-img-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 480px;
+}
+
+#first-img-holder img{
+    height: 45%;
+
+}
+#second-img-holder{
+    height: 480px;
+}
+
+#second-img-holder img{
+    height: 100%;
+    
+
+}
+
+/* coaches */
+
+#coaches {
+    min-height: 60vh;
+    padding: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+#coaches-first{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#img-1 {
+    width: 35%;
+}
+
+#img-2{
+    width: 60%;
+}
+
+#coaches-second{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#p1{
+    font-size: 20px;
+    color: #707070;
+}
+
+#p2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+#p3{
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 40px;
+}
+
+#coaches button {
+    background-color: black;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Trainers */
+#Trainers {
+    min-height: 90vh;
+    padding: 20px 50px;
+}
+
+#Trainers p {
+    color: #707070;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+}
+
+#trainer-image-holder{
+    width: 75vw;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#trainer-image-holder div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+/* pricing plans */
+
+#pricing {
+    min-height: 90vh;
+    padding: 50px;
+}
+
+#pricing-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pricing-first div p{
+    color: #707070;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#button-effect{
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(179, 179, 179);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#button-effect span{
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#pricing-second {
+    height: 60vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 100%;
+    width: 360px;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+
+.card-p1 {
+    color: #707070;
+    font-size: 18px;
+}
+
+.card-p2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.card-p3{
+    font-size: 15px;
+    color: #707070;
+}
+
+.card ul {
+    margin: 20px 10px;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+    color: gray;
+    list-style: none;
+}
+
+.card-p2 span{
+    font-size: 16px;
+}
+
+.card-1 {
+    background-color: white;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.card-2{
+    background-color: black;
+    color: white;
+}
+
+.card-1 button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    width: 84%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 30px;
+}
+
+.card-2 button {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    width: 84%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 30px;
+}
+
+.white{
+    color: white;
+}
+
+/* review section styling */
+#review{
+    height: 90vh;
+    padding:50px;
+}
+
+#review-child-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#review button {
+    background-color: black;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#review-child-2{
+    display: flex;
+    padding: 50px 10px;
+
+}
+
+#review-img-container{
+    width: 500px;
+    position: relative;
+}
+
+#review-img-container img{
+    position: absolute;
+}
+
+#review-img-container img:nth-child(1){
+    top: 0px;
+    left: 0px;
+    height: 180px;
+}
+#review-img-container img:nth-child(2){
+    top: 40px;
+    left: 250px;
+    height: 150px;
+}
+#review-img-container img:nth-child(3){
+    top: 180px;
+    left: 300px;
+    height: 150px;
+}
+#review-img-container img:nth-child(4){
+    top: 160px;
+    left: 100px;
+    height: 200px;
+}
+
+#review-second-div{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+#review-second-div div {
+    width: 47%;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#navigator {
+    font-size: 35px;
+    color: black;
+}
+
+/* contact */
+#contact{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: url('./Image/Footer-Bg.png');
+}
+
+#contact p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+#footer {
+    padding: 80px 50px;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footer-cards-holder{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+#footer-1 p{
+    text-align: start;
+    margin: 20px 0px;
+}
+
+.list h3{
+    margin-bottom: 10px;
+}
+
+.list ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#claim{
+    margin-top: 10px;
+}
